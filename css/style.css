@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(min-width:320px){
+    .ori-nav{
+        display: none !important;
+    } 
+    .res-nav{
+        display: block !important;
+    }
+}
+@media(min-width:992px){
+    .ori-nav{ 
+        /* position: fixed !important;        */
+        display: block !important;
+		background-color: rgb(223, 222, 222);
+		box-shadow:0 2px 5px 0px gray;
+    } 
+    .res-nav{
+        display: none !important;
+    }
+}
+#banner {
+    background: linear-gradient(#000000a6,#000000a6), url(https://emetsyofxgu.exactdn.com/wp-content/uploads/2022/08/technology-computer-software-gadgets-female-engineer-LCD-monitor-screen-gaming-gamer.jpg);
+    padding: 60px 0;
+    width: 100%;
+    height:100vh;
+	background-position:top;
+	background-attachment:scroll;
+	display:flex;
+	align-items:center;
+	
+}
+.container{
+	
+	width:90%;
+	margin:auto;
+}
+.banner-head h1{
+	font-size:60px;
+	font-weight:600;
+	line-height:80px;
+	color:#fff;
+}
+.banner-head p{
+	color:white;
+	font-size:18px;
+	padding:20px 0;
+}
+#about-sec{
+	padding-top: 30px;
+}
+.about-title{
+    padding:50px 0 20px;
+}
+.about-title h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.about-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #e03a3c;
+	bottom: 0;
+	left: calc(50% - 50px);
+}
+
+.img_card img{
+    width:100%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 gray;
+}
+.seeking{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(61, 60, 60);
+}
+.needs p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(61, 60, 60);
+}
+#skill-sec{
+	padding-top: 30px;
+}
+.skill-title{
+    padding:50px 0 20px;
+}
+.skill-title h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.skill-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #e03a3c;
+	bottom: 0;
+	left: calc(50% - 50px);
+}
+.html{
+    background-color: rgba(168, 168, 168, 0.623);
+    border-radius: 8px;
+}
+.round{
+    overflow: hidden;
+    height: 60px;
+    width:60px;
+
+}
+.round img{
+    width:100%;
+    
+}
+.bootstrap{
+    background-color: rgba(78, 8, 143, 0.856) !important;
+}
+.react{
+    background-color: rgba(3, 17, 148, 0.856) !important;
+}
+.git{
+    background-color: rgba(26, 221, 35, 0.856) !important;
+}
+#resume-sec{
+	padding-top: 40px;
+}
+.resume-title{
+    padding:50px 0 20px;
+}
+.resume-title h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.resume-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #e03a3c;
+	bottom: 0;
+	left: calc(50% - 50px);
+}
+#projects-sec{
+	padding-top: 30px;
+}
+.projects-title{
+    padding:50px 0 20px;
+}
+.projects-title h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.projects-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #e03a3c;
+	bottom: 0;
+	left: calc(50% - 50px);
+}
+
+.item img{
+	width:100%;
+	transition:all ease-in-out 0.3s;
+}
+.item{
+	overflow:hidden;
+	position:relative;
+}
+.port-info{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	border-radius:3px ;
+    background-color: #4c4d4ca6;
+  	 top:-300px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+	transition: all 0.3s linear;
+}
+.port-info h2{
+	font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+	margin-bottom: 0.4rem;
+}
+.port-info .htm,.css,.java,.reacto{
+	font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+	/* margin-bottom: 0.4rem; */
+}
+
+.port-icon i{
+	color: rgba(255, 255, 255, 0.4);
+    font-size: 28px;
+}
+.item:hover .port-info{
+	top:0;
+	
+}
+.button{
+	padding: 5px 40px;
+	background-color: rgb(94, 121, 243);
+	
+}
+.button a{
+	text-decoration: none;
+	color:black;
+}
+.item:hover img{
+	transform:scale(1.2);
+}
+.contact-title{
+    padding:50px 0 20px;
+}
+.contact-title h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.contact-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #e03a3c;
+	bottom: 0;
+	left: calc(50% - 50px);
+}
+.address{
+	text-align: center;
+}
+.address h4{
+	font-size: 16px;
+
+}
+.boxo{
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 0 2px 2px rgb(219, 217, 217);
+}
+.locat i{
+	font-size: 32px;
+	color:#00408b;
+}
+.gmail{
+	text-align: center;
+	padding: 45px 10px;
+}
+.gmail a{
+	text-decoration: none;
+	color: #000000 !important;
+}
+.legal {
+    background-color: #00408b;
+}
+
+.legal-flex {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-top: 30px;
+}
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+}
+.copyright h4 {
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.resume{
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #00408b;
+
+}
+.resume a{
+	color:#fff;
+	text-decoration: none;
+}
